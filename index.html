@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lakshay Deol | Email & Sales Copywriter</title>
+  <style>
+    body {
+      font-family: Inter, Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0b0f1a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    header {
+      background: radial-gradient(1200px 600px at 50% -10%, #111827 0%, #020617 60%);
+      color: #ffffff;
+      padding: 70px 20px;
+      text-align: center;
+      border-bottom: 1px solid #111827;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 15px auto 0;
+      color: #cbd5f5;
+    }
+    section {
+      max-width: 920px;
+      margin: 70px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 1.7rem;
+      margin-bottom: 22px;
+      color: #e5e7eb;
+      letter-spacing: 0.3px;
+    }
+    .services, .samples {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+      border: 1px solid #111827;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1e293b;
+    }
+    .cta {
+      background: linear-gradient(180deg, #020617 0%, #020617 100%);
+      color: #ffffff;
+      padding: 70px 20px;
+      text-align: center;
+      border-top: 1px solid #111827;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 14px 34px;
+      background: linear-gradient(90deg, #3b82f6, #2563eb);
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      box-shadow: 0 10px 25px rgba(37,99,235,0.35);
+    }
+    footer {
+      text-align: center;
+      padding: 26px;
+      font-size: 0.9rem;
+      color: #9ca3af;
+      border-top: 1px solid #111827;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="font-weight:600;letter-spacing:0.5px;">Lakshay Deol</h1>
+    <p style="opacity:0.9;font-size:1rem;">
+      Email & Sales Copywriter for Tech and Finance Brands<br />
+      I help startups and businesses turn readers into customers.
+    </p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;">
+      <p>
+        I’m a Computer Science student and copywriter specializing in <strong>email and sales copy</strong> for
+        <strong>tech, SaaS, and finance-focused businesses</strong>.
+        <br /><br />
+        My writing is clear, conversational, and conversion-focused — no hype, no spam.
+        I focus on understanding your audience and turning interest into action.
+      </p>
+      <img loading="lazy" width="600" height="400" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop" alt="copywriting desk" style="width:100%;border-radius:12px;" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">
+        <img loading="lazy" width="600" height="400" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&auto=format&fit=crop" alt="cold email" style="width:100%;border-radius:8px;margin-bottom:10px;" />
+        <h3>Cold Email Copy</h3>
+        <p>Personalized outreach emails designed to start conversations and get replies.</p>
+      </div>
+      <div class="card">
+        <img loading="lazy" width="600" height="400" src="https://images.unsplash.com/photo-1556155092-8707de31f9c4?w=800&auto=format&fit=crop" alt="sales email" style="width:100%;border-radius:8px;margin-bottom:10px;" />
+        <h3>Sales & Promotional Emails</h3>
+        <p>Emails that highlight benefits, build urgency, and drive clicks and sales.</p>
+      </div>
+      <div class="card">
+        <img loading="lazy" width="600" height="400" src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&auto=format&fit=crop" alt="email sequence" style="width:100%;border-radius:8px;margin-bottom:10px;" />
+        <h3>Email Sequences</h3>
+        <p>Multi-email sequences for onboarding, launches, and re-engagement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Work Samples</h2>
+    <div class="samples">
+      <div class="card">
+        <h3>Cold Outreach Email</h3>
+        <p><em>Goal:</em> Start a conversation</p>
+        <p>
+          Subject: Quick question about your product<br /><br />
+          Hi {{Name}},<br /><br />
+          I came across {{Company}} and liked how clearly you explain your product.<br />
+          I help tech startups write emails that get replies — not ignored.<br /><br />
+          Would you be open to seeing 2 short samples?<br /><br />
+          – Lakshay
+        </p>
+      </div>
+      <div class="card">
+        <h3>Sales Email</h3>
+        <p><em>Goal:</em> Drive conversions</p>
+        <p>
+          Subject: Enrollment closes in 48 hours<br /><br />
+          If you want to understand {{Outcome}} without wasting months,
+          this program was built for you.<br /><br />
+          Join before doors close 👉 {{Link}}
+        </p>
+      </div>
+      <div class="card">
+        <h3>Welcome Email</h3>
+        <p><em>Goal:</em> Build trust</p>
+        <p>
+          Welcome to {{Product}} 👋<br /><br />
+          Start with these 3 steps to get value fast.
+          If you need help, just reply to this email.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Let’s Work Together</h2>
+    <p>If you need clear, high-converting email or sales copy for your tech or finance business, let’s talk.</p>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lkshdeol@gmail.com" target="_blank">Contact Me</a>
+  </section>
+
+  <footer>
+    © 2025 Lakshay Deol · Email & Sales Copywriter · Contact: lkshdeol@gmail.com
+  </footer>
+
+</body>
+</html>
